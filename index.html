@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tracker-container">
+        <h1>Expense Tracker</h1>
+        <form class="form">
+            <p>Fill bellow inputs</p>
+            <label for="name" class="name-label">Name:</label>
+            <input type="text" placeholder="where was the expense made?" class="name-input">
+            <label for="date" class="date-label">Date:</label>
+            <input type="date" class="date-input">
+            <label for="amount" class="amout-label">Amount:</label>
+            <input type="text" class="amount-input" placeholder="amount..">
+            <button type="submit" class="expense-btn">Add Expense</button>
+        </form>
+        <div class="table-container">
+            <table class="table">
+                <tr class="tr">
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Amount</th>
+                    <!-- <th>Option</th> -->
+                </tr>
+                <!-- <tr class="tr">
+                    <td>daniel</td>
+                    <td>20/9/19</td>
+                    <td>$200</td>
+                    <td><button class="td-btn">Detete</button></td>
+                </tr> -->
+            </table>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

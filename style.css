@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus {
+    outline: 0 !important;
+}
+body{
+    background-image: url('pexels-swapnil-sharma-3274210 (1).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: ghostwhite;
+}
+.tracker-container{
+    background: transparent;
+    max-width: 50vw;
+    min-height: 95vh;
+    margin: 1em auto;
+}
+.form{
+    min-height: 15vh;
+}
+form p {
+    font-size: 1.3rem;
+    padding: .5em;
+}
+form input{
+    padding: .8em;
+    margin: .5em;
+    border-radius: .3em;
+    border: none;
+    cursor: pointer;
+}
+form label{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: left;
+}
+.name-input{
+    display: inline-block;
+    width: 90%;
+}
+.date-input,.amount-input{
+    display: inline-block;
+    width: 39%;
+}
+.expense-btn{
+    display: block;
+    margin: .7em auto;
+    padding: 1em 2em;
+    background: rgb(173, 245, 173);
+    border: none;
+    cursor: pointer;
+    border-radius: .3em;
+}
+.expense-btn:hover{
+    background: rgb(131, 243, 131);
+}
+.table-container{
+    /* background: blue; */
+    max-width: 45vw;
+    margin: 0 auto;
+}
+table{
+    width: 100%;
+    
+}
+table,th,td{
+    border: 1px solid black; 
+    padding: 1em;
+    border-collapse: collapse;
+    background: ghostwhite;
+    color: black;
+}
+td{
+    background: rgb(185, 184, 184);
+}
+.td-btn{
+    background: rgb(253, 85, 85);
+    padding: 0.3rem 0.9rem;
+    border: 0;
+    border-radius: .3rem;
+    cursor: pointer;
+    margin: ;
+}
+.td-btn:hover{
+    background: rgb(252, 71, 71);
+}
+/* .table-row{
+    display: flex;
+} */
